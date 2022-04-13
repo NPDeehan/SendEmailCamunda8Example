@@ -33,7 +33,7 @@ spring.mail:
 
 ## What is the Send Email worker doing?
 
-First the worker will subscribe to a specific job or topic, this is determined by the annotation at the top of the class, in this case it's `SendEamil`
+First the worker will subscribe to a specific job or topic, this is determined by the annotation at the top of the class, in this case it's `SendEmail`
 
 ```java
     @ZeebeWorker(type = "SendEmail")
