@@ -1,13 +1,13 @@
-# Send Email Worker Cloud Example
+# Send Email Worker Camunda 8 Example
 
-This is an example project that shows how you can send an email using Camunda Cloud
+This is an example project that shows how you can send an email using Camunda 8
 
 ## Prerequisites
 
 To use this project you need to setup some stuff, some you might already have, but you can follow the requirements list and you'll be all set.
 
-### Camunda Cloud Account
-Pop along to camunda.io and create a Camunda Cloud account. You'll need to create a cluster and setup client connection credentials. If you don't know how to do that, [just follow this tutorial](https://docs.camunda.io/docs/guides/getting-started/).
+### Camunda 8 Account
+Pop along to camunda.io and create a Camunda 8 account. You'll need to create a cluster and setup client connection credentials. If you don't know how to do that, [just follow this tutorial](https://docs.camunda.io/docs/guides/getting-started/).
 
 ### Camunda Desktop Modeler (Optional)
 You can [download it here](https://camunda.com/download/modeler/) for all the usual platforms.
@@ -17,7 +17,7 @@ This exmaple was built using a GMAIL account and it's pretty easy to setup a GMA
 
 ## Configure Worker
 
-Assuming you've already configured the connection to Camunda Cloud/Zeebe mentioned above you just need to connect to your email server, all of that is done in the `application.yml` file. Replacing the username and password with yours should be all you nee dto do
+Assuming you've already configured the connection to Camunda 8/Zeebe mentioned above you just need to connect to your email server, all of that is done in the `application.yml` file. Replacing the username and password with yours should be all you nee dto do
 
 ```yaml
 spring.mail:
@@ -73,7 +73,7 @@ the fastest way to deploy and start the process is:
 1. Select the `SendEmail` process from the `ExampleProcess` folder and it should appear.
 1. Click the Execute button on the top left.
 
-One you've deployed and started the instance you can go to your Camunda Cloud cluster and open up Tasklist, you'll see your task where you can enter the details of your email.
+One you've deployed and started the instance you can go to your Camunda 8 cluster and open up Tasklist, you'll see your task where you can enter the details of your email.
 
 
 
